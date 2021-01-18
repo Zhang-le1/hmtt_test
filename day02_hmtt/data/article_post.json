@@ -1,0 +1,7 @@
+{
+  "url": "http://ttapi.research.itcast.cn/app/v1_0/article/collections",
+  "headers": {"Content-Type":"application/json","Authorization":"Bearer token信息"},
+  "data":{"target":"文章id"},
+  "expecte_result": "OK",
+  "status_code": "201"
+}

@@ -1,0 +1,14 @@
+{
+  "login001": {
+                "url":"http://ttapi.research.itcast.cn/app/v1_0/authorizations",
+                "mobile":"18976681597",
+                "code":"",
+                "expect_result":"ok",
+                "status_code":"201"},
+  "login002": {
+                "url":"http://ttapi.research.itcast.cn/app/v1_0/authorizations",
+                "mobile":"189766815977",
+                "code":"",
+                "expect_result":{"mobile":"189766815977 is not a valid mobile"},
+                "status_code":"400"}
+}
