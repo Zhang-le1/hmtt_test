@@ -6,7 +6,7 @@
 #导包 unittest HTMLTestRunner time
 import unittest
 import time
-from HTMLTestRunner import HTMLTestRunner
+from day02_hmtt.tools.HTMLTestRunner import HTMLTestRunner
 
 #第一步：组装测试套件
 suite=unittest.defaultTestLoader.discover("./case",pattern="test*.py")
